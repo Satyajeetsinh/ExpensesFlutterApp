@@ -50,6 +50,12 @@ class _MyHomePageState extends State<MyHomePage> {
       amount: 500,
       date: DateTime.now(),
     ),
+    Transaction(
+      id: "i2",
+      title: "Shirt",
+      amount: 500,
+      date: DateTime.now(),
+    ),
   ];
 
   void _addNewTransaction(String txTitle, double txAmount) {
